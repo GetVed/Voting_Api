@@ -1,0 +1,30 @@
+Voter api
+
+User Authentication:-  
+
+  /signup: POST - create a new user account.
+  /login:  POST - log in to an existing user.
+
+
+Voting:-
+
+  /candidates: GET - Get the list of candidates.
+  /vote/:candidateId: POST - vote for specific candidate.
+
+
+vote counts:- 
+
+   /vote/counts: GET - Get the list of candidates sorted by their vote counts.
+
+
+User Profile:- 
+
+   /profile: GET - get the user's profile information.
+   /profile/password: PUT - change the user's password.
+
+
+Admin Candidate Management:- 
+
+    /candidate:- POST - create a new candidate.
+    /candidate/:candidateId:- PUT - update an existing candidate.
+    /candidate/:candidateId:- DELETE - Delete a candidate from the list.
